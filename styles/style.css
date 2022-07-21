@@ -80,9 +80,32 @@ p {
 
 /* Media Queries for Mobile Devices */
 
-@media only screen and (max-width: 688px) {
-    body {
-        width: 100%;
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    h1 {
+        font-size: 3vh;
+    }
+
+    p {
+        font-size: 1.7vw;
+    }
+
+    .header {
+        height: 40vh;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .left-portion {
+        height: auto;
+        /* background-color: aqua; */
+    }
+
+    .live-button {
+        width: 20vw;
+        height: 4vh;
     }
 }
 
