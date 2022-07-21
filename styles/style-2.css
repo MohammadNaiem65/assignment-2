@@ -210,3 +210,53 @@ li a {
 .icon-links li {
     display: inline-block;
 }
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    h1 {
+        font-size: 3vh;
+    }
+
+    p {
+        font-size: 1.7vw;
+    }
+
+    .header {
+        height: 40vh;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .left-portion {
+        height: auto;
+        /* background-color: aqua; */
+    }
+
+    .live-button {
+        width: 20vw;
+        height: 4vh;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+
+    .absolute-position {
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color: #F3F1FF;
+        margin-bottom: 30px;
+    }
+
+    .absolute-position a {
+        width: 250px;
+    }
+
+    .multi-blogs {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
